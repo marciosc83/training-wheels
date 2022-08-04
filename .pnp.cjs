@@ -33,7 +33,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["cypress", "npm:10.1.0"]\
+            ["cypress", "npm:10.1.0"],\
+            ["cypress-real-events", "virtual:937bf5d4ebf276d32487e09f549f247a6a9db15c54a2f3578579e139b6eee06bff7b05a4cd9a69fbaae61ecf7b10e86b6013c0bc30cdf266f801718718e6fe09#npm:1.7.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -558,6 +559,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tmp", "npm:0.2.1"],\
             ["untildify", "npm:4.0.0"],\
             ["yauzl", "npm:2.10.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["cypress-real-events", [\
+        ["npm:1.7.1", {\
+          "packageLocation": "./.yarn/cache/cypress-real-events-npm-1.7.1-6d5a866c0e-b31c2facfa.zip/node_modules/cypress-real-events/",\
+          "packageDependencies": [\
+            ["cypress-real-events", "npm:1.7.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:937bf5d4ebf276d32487e09f549f247a6a9db15c54a2f3578579e139b6eee06bff7b05a4cd9a69fbaae61ecf7b10e86b6013c0bc30cdf266f801718718e6fe09#npm:1.7.1", {\
+          "packageLocation": "./.yarn/__virtual__/cypress-real-events-virtual-1f39ac4b3a/0/cache/cypress-real-events-npm-1.7.1-6d5a866c0e-b31c2facfa.zip/node_modules/cypress-real-events/",\
+          "packageDependencies": [\
+            ["cypress-real-events", "virtual:937bf5d4ebf276d32487e09f549f247a6a9db15c54a2f3578579e139b6eee06bff7b05a4cd9a69fbaae61ecf7b10e86b6013c0bc30cdf266f801718718e6fe09#npm:1.7.1"],\
+            ["@types/cypress", null],\
+            ["cypress", "npm:10.1.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/cypress",\
+            "cypress"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1663,7 +1686,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["training-wheels", "workspace:."],\
-            ["cypress", "npm:10.1.0"]\
+            ["cypress", "npm:10.1.0"],\
+            ["cypress-real-events", "virtual:937bf5d4ebf276d32487e09f549f247a6a9db15c54a2f3578579e139b6eee06bff7b05a4cd9a69fbaae61ecf7b10e86b6013c0bc30cdf266f801718718e6fe09#npm:1.7.1"]\
           ],\
           "linkType": "SOFT"\
         }]\

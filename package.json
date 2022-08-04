@@ -15,7 +15,8 @@
   "author": "Marcio Soares",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^10.1.0"
+    "cypress": "^10.1.0",
+    "cypress-real-events": "^1.7.1"
   },
   "packageManager": "yarn@3.2.1"
 }

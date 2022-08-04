@@ -404,6 +404,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cypress-real-events@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "cypress-real-events@npm:1.7.1"
+  peerDependencies:
+    cypress: ^4.x || ^5.x || ^6.x || ^7.x || ^8.x || ^9.x || ^10.x
+  checksum: b31c2facfa03e01e298926cd0925260b12474770fc1a3ce8998da21818db7e6d9fc2f9eb60d1771aa4ce3c29aca63d04da21e1a63e3bb117b1506a72ab0c3eb1
+  languageName: node
+  linkType: hard
+
 "cypress@npm:^10.1.0":
   version: 10.1.0
   resolution: "cypress@npm:10.1.0"
@@ -1380,6 +1389,7 @@ __metadata:
   resolution: "training-wheels@workspace:."
   dependencies:
     cypress: ^10.1.0
+    cypress-real-events: ^1.7.1
   languageName: unknown
   linkType: soft
 
